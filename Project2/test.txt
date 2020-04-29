@@ -1,0 +1,18 @@
+CS132 – Computer Science II
+Fall 2019
+Mr. MacKay
+Project 2 – due Tuesday, December 3rd, at the beginning of class.
+Description:  A text concordance is an alphabetical listing of-all the distinct words in a document.  The basic storage structure for a concordance is an array of Binary Search Trees, one tree for words starting with A, one for words starting with B, etc.
+	You will write a program that reads a text file and constructs the concordance that contains the distinct words in the file and, for each word, the line number of the first occurrence, and then allows the user to search the concordance for a particular word, and to print out a list of all the distinct words in the concordance. 
+•	Words that are upper case (or have uppercase letters in them) are treated the same as the word written with all lowercase letters.
+•	Words in the list will NOT have ANY non-alphabetic characters at the beginning or end of the word
+o	i.e. the word hello!! and the word ---Hello will both be saved as the word hello
+•	The program will ask the user to input the file name at run-time
+•	The program will ask the user for words to search for until the user indicates they are done
+•	After searching for words, the program will display a list of the distinct words in alphabetical order, the line number of their first occurrence, and how many there are in the file
+You must have internal and external documentation:
+See the handout on Documentation Standards
+You will demonstrate your working project to me at an appointed time.
+	IF YOU DO NOT, YOU DO NOT GET CREDIT FOR THE PROJECT!
+You will email me a copy of all your files, along with the documentation
+

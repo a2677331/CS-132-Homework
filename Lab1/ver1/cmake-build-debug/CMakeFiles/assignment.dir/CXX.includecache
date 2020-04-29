@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhongjian/OneDrive - Erie Community College/CS132-Labs/lab1/assignment/lab1driver.cpp
+iostream
+-
+string
+-
+personType.h
+/Users/zhongjian/OneDrive - Erie Community College/CS132-Labs/lab1/assignment/personType.h
+partTimeEmployee.h
+/Users/zhongjian/OneDrive - Erie Community College/CS132-Labs/lab1/assignment/partTimeEmployee.h
+
+/Users/zhongjian/OneDrive - Erie Community College/CS132-Labs/lab1/assignment/partTimeEmployee.cpp
+personType.h
+/Users/zhongjian/OneDrive - Erie Community College/CS132-Labs/lab1/assignment/personType.h
+partTimeEmployee.h
+/Users/zhongjian/OneDrive - Erie Community College/CS132-Labs/lab1/assignment/partTimeEmployee.h
+iostream
+-
+string
+-
+
+/Users/zhongjian/OneDrive - Erie Community College/CS132-Labs/lab1/assignment/partTimeEmployee.h
+string
+-
+personType.h
+/Users/zhongjian/OneDrive - Erie Community College/CS132-Labs/lab1/assignment/personType.h
+
+/Users/zhongjian/OneDrive - Erie Community College/CS132-Labs/lab1/assignment/personType.cpp
+personType.h
+/Users/zhongjian/OneDrive - Erie Community College/CS132-Labs/lab1/assignment/personType.h
+iostream
+-
+string
+-
+
+/Users/zhongjian/OneDrive - Erie Community College/CS132-Labs/lab1/assignment/personType.h
+string
+-
+
